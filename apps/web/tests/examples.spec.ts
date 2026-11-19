@@ -27,7 +27,7 @@ test('homepage stacks compact scenes without tabs or removed marketing copy', as
     page.getByRole('heading', { name: 'Screen Studio for browser automation', exact: true }),
   ).toBeVisible();
   const heroCopy = page.getByText(
-    'Bigcursor makes automated browser use easier to follow. It adds a large, naturally moving cursor and displays keystrokes so you can see what inputs were used.',
+    'Bigcursor makes automated browser use easier to follow. It adds a large, naturally moving cursor and displays keystrokes so you can see where the agent clicks and what it types.',
     { exact: true },
   );
   await expect(heroCopy).toHaveCSS('text-align', 'center');
