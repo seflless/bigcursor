@@ -11,7 +11,7 @@ export default function Home() {
         </h1>
         <p className="mx-auto mt-5 max-w-3xl text-balance text-base leading-7 text-muted">
           Bigcursor makes automated browser use easier to follow. It adds a large, naturally
-          moving cursor and displays keystrokes so you can see what inputs were used.
+          moving cursor and displays keystrokes so you can see where the agent clicks and what it types.
         </p>
         <p className="mx-auto mt-5 max-w-xl text-balance text-base leading-7 text-muted">
           Agents use it to record themselves demoing a feature or showing how they tested an app.
